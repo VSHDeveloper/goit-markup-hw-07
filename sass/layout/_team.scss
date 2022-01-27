@@ -61,17 +61,14 @@
   transition-property: background-color, color, fill;
   transition-duration: 250ms;
   transition-timing-function: $animation;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 .social-team__link {
   &:not(:last-child) {
     margin-right: 10px;
-  }
-}
-
-.social-team__link {
-  &:hover,
-  &:focus {
-    background-color: $accent-color;
   }
 }
 .social-team__icon {

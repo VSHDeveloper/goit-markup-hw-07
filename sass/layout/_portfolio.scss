@@ -55,8 +55,6 @@
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: $animation;
-}
-.cards__link {
   flex-basis: calc(100% / 3 - 30px);
   &:hover,
   &:focus {

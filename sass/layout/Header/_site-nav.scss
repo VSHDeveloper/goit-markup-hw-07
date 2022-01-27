@@ -23,8 +23,6 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: $animation;
-}
-.nav-menu__link {
   &:hover,
   &:focus {
     color: $accent-color;

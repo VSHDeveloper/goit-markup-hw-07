@@ -827,12 +827,12 @@ button {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-team__link:not(:last-child) {
-  margin-right: 10px;
-}
-
 .social-team__link:hover, .social-team__link:focus {
   background-color: #2196f3;
+}
+
+.social-team__link:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-team__icon {
@@ -1224,9 +1224,6 @@ button {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cards__link {
   -webkit-flex-basis: -webkit-calc(100% / 3 - 30px);
       -ms-flex-preferred-size: calc(100% / 3 - 30px);
           flex-basis: calc(100% / 3 - 30px);
